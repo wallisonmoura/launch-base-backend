@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+
+    {% block head %}
+    <title>Wallison Moura</title>
+
+    {% endblock %}
+
+    <link rel="stylesheet" href="/style.css" />
+  </head>
+  <body>
+    <header>
+      <div class="links">
+        <a href="/">Sobre</a>
+        <a href="/aulas">Aulas</a>
+      </div>
+    </header>
+
+    {% block content %} {% endblock %}
+  </body>
+</html>
